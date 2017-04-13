@@ -24,7 +24,7 @@
                     <input type="text" name="password" placeholder="Enter password" />
                 </div>
                 <input class="btn-login" type="submit" name="submit" value="Login Now" />
-                <div class="actionbutton" style="top:31vmin;">Log In</div>
+                
 
             </form>
         </div>
@@ -37,7 +37,7 @@
         $(this).animate({ height: "250px", width: "400px" });
         $(this).children("p").animate({ fontsize: "25px" });
 
-        $("#form").delay(500).fadeIn();
+        $('.form').delay(500).fadeIn();
     })
     $("submit").click(function () {
         var u_name = $("#username").val();
@@ -45,12 +45,12 @@
 
         if (u_name != "" && pass !=""){
 
-            $("#container").fadeOut();
+            $('.container').fadeOut();
             $("h2").fadeIn();
             $("h2").html("Welcome " + u_name);
             $("h2").animate({ marginTop: "200px" });
         
-    };
+    };5
 
     })
 

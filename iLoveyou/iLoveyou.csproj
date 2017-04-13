@@ -10,7 +10,6 @@
     <Content Include="wwwroot\images\heart.jpg" />
     <Content Include="wwwroot\images\lovehub.jpg" />
     <Content Include="wwwroot\images\map.jpg" />
-    <Content Include="wwwroot\lovehub.jpg" />
   </ItemGroup>
 
   <ItemGroup>

@@ -16,9 +16,9 @@
     opacity:0.8;
    }
 .container img{
-    width:500px;
+    width:120px;
     height:120px;
-    margin-top:-60px;
+    margin-top:-15px;
     margin-bottom:30px;
 }
 input[type="text"],input[type="password"]{
@@ -33,7 +33,6 @@ input[type="text"],input[type="password"]{
     padding: 15px 30px;
     outline: 0;
     border: 0;
-    padding: 10px 15px;
     color: grey;
     border-radius: 3px;
     width: 250px;
@@ -63,21 +62,3 @@ input[type="text"],input[type="password"]{
     content:"\f023";
 }
 
-body .actionbutton{cursor: pointer;
-    display: inline-block;
-    position: relative;
-    height: auto;
-    width: 23vmin;
-    padding: 2vmin;
-    top: 37vmin;
-    margin: 0 auto;
-    text-align: center;
-    background: transparent;
-    border: 0.2vmin solid #45b0e3;
-    color: #FFF;
-    transition: all 0.5s ease;
-    font-family: 'Open Sans',sans-serif;
-    font-size: 1.8vmin;
-    font-weight: normal;
-    border-radius: 3vmin;
-}
