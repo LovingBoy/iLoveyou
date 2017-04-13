@@ -1,0 +1,83 @@
+﻿body {
+    margin:0 auto;
+    background-image: url("../images/background.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 720px;
+}
+.container{
+    width:500px;
+    height:400px;
+    text-align:center;
+    background-color:rgba(52,73,94,0.7);
+    border-radius:4px;
+    margin:0 auto;
+    margin-top:150px;
+    transform:translateX(-50%) translateY(-50%);
+    opacity:0.8;
+   }
+.container img{
+    width:500px;
+    height:120px;
+    margin-top:-60px;
+    margin-bottom:30px;
+}
+input[type="text"],input[type="password"]{
+    height:45px;
+    width:300px;
+    font-size:18px;
+    margin-bottom:20px;
+    background-color:aliceblue;
+    padding-left:30px;
+}
+.btn-login {
+    padding: 15px 30px;
+    outline: 0;
+    border: 0;
+    padding: 10px 15px;
+    color: grey;
+    border-radius: 3px;
+    width: 250px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 3vmin;
+}
+    .btn-login:hover {
+        background-color: white;
+    }
+.form-input::before{
+    content:"\f007";
+    position:absolute;
+    font-family:FontAwsome;
+    padding-left:0px;
+    padding-top:5px;
+    font-size:35px;
+    color:antiquewhite;
+}
+
+.form-input:focus{
+    background-color:brown;
+    width:300px;
+    color:cadetblue;
+}
+.form-input:last-child::before{
+    content:"\f023";
+}
+
+body .actionbutton{cursor: pointer;
+    display: inline-block;
+    position: relative;
+    height: auto;
+    width: 23vmin;
+    padding: 2vmin;
+    top: 37vmin;
+    margin: 0 auto;
+    text-align: center;
+    background: transparent;
+    border: 0.2vmin solid #45b0e3;
+    color: #FFF;
+    transition: all 0.5s ease;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.8vmin;
+    font-weight: normal;
+    border-radius: 3vmin;
+}

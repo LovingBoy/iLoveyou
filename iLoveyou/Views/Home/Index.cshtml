@@ -1,0 +1,57 @@
+﻿<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/StyleSheet.css"/>
+</head>
+<body>
+    <h1></h1>
+    <h1>iLoveyou</h1>
+    <section>No 1 Dating WebSite</section>
+    <div class="description" >More than 100 thousand users have joined</div> <ng-form>LoveHub</ng-form>
+    <section class="inputForm">
+
+
+        <p>First Sign In</p>
+
+        <div class="container">
+            <img src="~/images/lovehub.jpg" />
+            <form>
+                <div class="form-input">
+                    <i class="material-icons">home</i>
+                    <input type="text" name="username" placeholder="Enter username" />
+                </div>
+                <div class="form-input">
+                    <i class="fa fa-lock"></i>
+                    <input type="text" name="password" placeholder="Enter password" />
+                </div>
+                <input class="btn-login" type="submit" name="submit" value="Login Now" />
+                <div class="actionbutton" style="top:31vmin;">Log In</div>
+
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
+<script>
+    $(document).ready(function () {
+        $(this).animate({ height: "250px", width: "400px" });
+        $(this).children("p").animate({ fontsize: "25px" });
+
+        $("#form").delay(500).fadeIn();
+    })
+    $("submit").click(function () {
+        var u_name = $("#username").val();
+        var pass = $("#password").val();
+
+        if (u_name != "" && pass !=""){
+
+            $("#container").fadeOut();
+            $("h2").fadeIn();
+            $("h2").html("Welcome " + u_name);
+            $("h2").animate({ marginTop: "200px" });
+        
+    };
+
+    })
+
+</script>
