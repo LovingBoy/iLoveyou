@@ -1,18 +1,22 @@
 ﻿<html>
 <head>
     <link rel="stylesheet" type="text/css" href="~/css/StyleSheet.css"/>
+    
 </head>
 <body>
     <h1></h1>
     <h1>iLoveyou</h1>
     <section>No 1 Dating WebSite</section>
     <div class="description" >More than 100 thousand users have joined</div> <ng-form>LoveHub</ng-form>
+
+    <h1>Sign up</h1>
     <section class="inputForm">
 
 
         <p>First Sign In</p>
-
-        <div class="container">
+        <input type="button" id="show" value="Log In" />
+        <script type="text/javascript" src="~/JavaScript/JavaScript.js"></script>
+        <div id="container" class="form_show">
             <img src="~/images/lovehub.jpg" />
             <form>
                 <div class="form-input">
@@ -23,35 +27,14 @@
                     <i class="fa fa-lock"></i>
                     <input type="text" name="password" placeholder="Enter password" />
                 </div>
-                <input class="btn-login" type="submit" name="submit" value="Login Now" />
-                
-
+                <input class="btn-login" type="submit" name="submit" value="Enter" />               
             </form>
         </div>
     </section>
+    
 </body>
 
 </html>
-<script>
-    $(document).ready(function () {
-        $(this).animate({ height: "250px", width: "400px" });
-        $(this).children("p").animate({ fontsize: "25px" });
 
-        $('.form').delay(500).fadeIn();
-    })
-    $("submit").click(function () {
-        var u_name = $("#username").val();
-        var pass = $("#password").val();
+    
 
-        if (u_name != "" && pass !=""){
-
-            $('.container').fadeOut();
-            $("h2").fadeIn();
-            $("h2").html("Welcome " + u_name);
-            $("h2").animate({ marginTop: "200px" });
-        
-    };5
-
-    })
-
-</script>

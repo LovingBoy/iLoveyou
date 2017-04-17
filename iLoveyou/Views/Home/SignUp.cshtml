@@ -3,3 +3,22 @@
 *@
 @{
 }
+<div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Dropdown</button>Dropdown
+    <div id="myDropdown" class="dropdown-content">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+</div>
+<p>ages between</p><script type="text/x-jquery-tmpl">
+
+    $(function(){
+    var $select = $(".dropbtn");
+    for (i=1;i<=100;i++){
+    $select.append($('
+    <option></option>').val(i).html(i))
+    }
+    });​
+</script> <span>and</span> 
+
